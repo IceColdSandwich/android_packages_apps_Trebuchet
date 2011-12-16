@@ -64,6 +64,7 @@
     <string name="menu_search" msgid="4826514464423239041">"Suchen"</string>
     <string name="menu_notifications" msgid="6424587053194766192">"Benachrichtigungen"</string>
     <string name="menu_settings" msgid="3946232973327980394">"Systemeinstellungen"</string>
+    <string name="menu_preferences">Einstellungen</string>
     <string name="menu_help" msgid="4901160661634590633">"Hilfe"</string>
     <string name="cab_menu_delete_app" msgid="4089398025537640349">"App deinstallieren"</string>
     <string name="cab_menu_app_info" msgid="914548323652698884">"App-Details"</string>
@@ -102,4 +103,31 @@
     <string name="folder_closed" msgid="3130534551370511932">"Ordner wurde geschlossen"</string>
     <string name="folder_renamed" msgid="781234745487414781">"Ordner umbenannt in %1$s"</string>
     <string name="folder_name_format" msgid="4513766553514769310">"Ordner: %1$s"</string>
+    <string name="preferences_title">Einstellungen</string>
+    <string name="preferences_interface_title">Interface</string>
+    <string name="preferences_application_title">Über die Anwendung</string>
+    <string name="preferences_interface_homescreen_title">Homescreen</string>
+    <string name="preferences_interface_homescreen_general_category">Allgemein</string>
+    <string name="preferences_interface_homescreen_general_search_title">Suchleiste</string>
+    <string name="preferences_interface_homescreen_general_search_summary">Suchleiste immer anzeigen</string>
+    <string name="preferences_interface_homescreen_general_resize_any_widget_title">Größe aller Widgets änderbar</string>
+    <string name="preferences_interface_homescreen_general_resize_any_widget_summary">Erlaubt das Ändern der Größe von Widgets, bei denen dies normalerweise nicht möglich ist.</string>
+    <string name="preferences_interface_homescreen_indicator_category">Bildschirmindikator</string>
+    <string name="preferences_interface_homescreen_indicator_enable_title">Zeige Bildschirmindikator</string>
+    <string name="preferences_interface_homescreen_indicator_enable_summary">Zeige Bildschirmindikator am unteren Bildschirmrand</string>
+    <string name="preferences_interface_homescreen_indicator_fade_title">Bildschirmindikator ausblenden</string>
+    <string name="preferences_interface_homescreen_indicator_fade_summary">Bildschirmindikator nach dem Blättern ausblenden</string>
+    <string name="preferences_interface_drawer_title">Drawer</string>
+    <string name="preferences_interface_drawer_widgets_category">Widgets</string>
+    <string name="preferences_interface_drawer_widgets_join_apps_title">Mit App-Drawer verschmelzen</string>
+    <string name="preferences_interface_drawer_widgets_join_apps_summary">Ermöglicht das direkte Wechseln vom App- in den Widgets-Drawer</string>
+    <string name="preferences_interface_drawer_indicator_category">Bildschirmindikator</string>
+    <string name="preferences_interface_drawer_indicator_enable_title">Zeige Bildschirmindikator</string>
+    <string name="preferences_interface_drawer_indicator_enable_summary">Zeige Bildschirmindikator am unteren Bildschirmrand</string>
+    <string name="preferences_interface_drawer_indicator_fade_title">Bildschirmindikator ausblenden</string>
+    <string name="preferences_interface_drawer_indicator_fade_summary">Bildschirmindikator nach dem Blättern ausblenden</string>
+    <string name="preferences_interface_dock_title">Dock</string>
+    <string name="preferences_interface_icons_title">Symbole</string>
+    <string name="preferences_interface_general_title">Allgemein</string>
+    <string name="preferences_interface_general_orientation_title">Automatische Bildschrimrotation</string>
 </resources>
