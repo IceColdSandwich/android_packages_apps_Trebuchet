@@ -169,8 +169,8 @@
 
     <!-- Icons -->
     <string name="preferences_interface_icons_title">Icônes</string>
-    <string name="preferences_interface_homescreen_general_hide_icon_labels_title">Libellés</string>
-    <string name="preferences_interface_homescreen_general_hide_icon_labels_summary">Afficher le libellé des icônes de l\'écran d\'accueil</string>
+    <string name="preferences_interface_homescreen_general_hide_icon_labels_title">Sans libellés</string>
+    <string name="preferences_interface_homescreen_general_hide_icon_labels_summary">Cacher le libellé des icônes de l\'écran d\'accueil</string>
     <string name="preferences_interface_homescreen_general_default_grid_row_title">Nombre de rangées</string>
     <string name="preferences_interface_homescreen_general_default_grid_row_summary">Nombre de rangées d\'icônes sur l\'écran d\'accueil</string>
     <string name="preferences_interface_homescreen_general_default_grid_column_title">Nombre de colonnes</string>
