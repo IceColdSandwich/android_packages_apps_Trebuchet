@@ -86,7 +86,8 @@
 		    android:summary="@string/preferences_interface_homescreen_scrolling_loop_pages_summary"
 		    android:defaultValue="false" />
             </PreferenceCategory>
-            <PreferenceCategory android:title="@string/preferences_interface_homescreen_indicator_category">
+            <PreferenceCategory android:key="ui_homescreen_indicator"
+                android:title="@string/preferences_interface_homescreen_indicator_category">
                 <CheckBoxPreference android:key="ui_homescreen_indicator_enable"
                     android:title="@string/preferences_interface_homescreen_indicator_enable_title"
                     android:summary="@string/preferences_interface_homescreen_indicator_enable_summary"
@@ -119,7 +120,8 @@
                     android:title="@string/preferences_interface_drawer_scrolling_fade_adjacent_screens_title"
                     android:summary="@string/preferences_interface_drawer_scrolling_fade_adjacent_screens_summary" />
             </PreferenceCategory>
-            <PreferenceCategory android:title="@string/preferences_interface_drawer_indicator_category">
+            <PreferenceCategory android:key="ui_drawer_indicator"
+                android:title="@string/preferences_interface_drawer_indicator_category">
                 <CheckBoxPreference android:key="ui_drawer_indicator_enable"
                     android:title="@string/preferences_interface_drawer_indicator_enable_title"
                     android:summary="@string/preferences_interface_drawer_indicator_enable_summary"
