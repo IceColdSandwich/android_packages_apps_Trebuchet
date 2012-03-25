@@ -17,6 +17,9 @@
 
 <resources>
     <string-array name="wallpapers" translatable="false">
+	<item>wallpaper_icecoldwallpaper</item>
+	<item>wallpaper_icecoldwave</item>
+	<item>wallpaper_icecoldwave2</item>
         <item>wallpaper_architecture</item>
         <item>wallpaper_bubblegum</item>
         <item>wallpaper_canyon</item>
@@ -28,5 +31,6 @@
         <item>wallpaper_leaf</item>
         <item>wallpaper_noir</item>
         <item>wallpaper_outofthebox</item>
+        <item>wallpaper_redblue</item>
     </string-array>
 </resources>
