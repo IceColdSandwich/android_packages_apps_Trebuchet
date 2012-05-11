@@ -21,7 +21,7 @@
     <!-- The color tints to apply to the text and drag view when hovering
          over the delete target or the info target -->
     <color name="delete_target_hover_tint">#DAFF0000</color>
-    <color name="info_target_hover_tint">#DA0099CC</color>
+    <color name="info_target_hover_tint">#DAC0C0C0</color>
 
     <!-- The alpha/color to apply to the drag image -->
     <color name="drag_view_multiply_color">#CCFFFFFF</color>

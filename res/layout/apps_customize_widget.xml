@@ -22,8 +22,8 @@
     android:layout_weight="1"
     android:orientation="vertical"
 
-    launcher:blurColor="#FF6B8CF0"
-    launcher:outlineColor="#FF8CD2FF"
+    launcher:blurColor="#FFE2E2E2"
+    launcher:outlineColor="#FFF9F9F9"
 
     android:background="@drawable/focusable_view_bg"
     android:focusable="true">
