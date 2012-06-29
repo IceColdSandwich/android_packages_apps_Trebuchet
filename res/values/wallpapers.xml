@@ -17,6 +17,7 @@
 
 <resources>
     <string-array name="wallpapers" translatable="false">
+        <item>wallpaper_icecoldrobot</item>
 	<item>wallpaper_icecoldwallpaper</item>
 	<item>wallpaper_icecoldwave</item>
 	<item>wallpaper_icecoldwave2</item>
