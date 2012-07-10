@@ -93,6 +93,10 @@
     <integer name="folder_max_count_x">4</integer>
     <integer name="folder_max_count_y">4</integer>
     <integer name="folder_max_num_items">16</integer>
+
+    <!-- Workspace grid size -->
+    <integer name="config_workspaceRows">4</integer>
+    <integer name="config_workspaceColumns">4</integer>
     
     <!-- App Drawer Grid -->
     <!-- Portrait -->
@@ -101,4 +105,5 @@
     <!-- Landscape -->
     <integer name="config_drawerRowsLand">3</integer>
     <integer name="config_drawerColumnsLand">6</integer>
+
 </resources>
