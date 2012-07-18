@@ -592,14 +592,21 @@ public class AppsCustomizePagedView extends PagedViewWithDraggableItems implemen
                 mLauncher.getWorkspace().isSwitchingState()) return;
 
         if (v instanceof PagedViewIcon) {
-            // Animate some feedback to the click
             final ApplicationInfo appInfo = (ApplicationInfo) v.getTag();
-            animateClickFeedback(v, new Runnable() {
-                @Override
-                public void run() {
-                    mLauncher.startActivitySafely(appInfo.intent, appInfo);
-                }
-            });
+
+            if (!PagedViewIcon.POST_CLICK_ANIMATE) {
+                // Display some feedback to the click
+                displayClickFeedback(v);
+                mLauncher.startActivitySafely(appInfo.intent, appInfo);
+            } else {
+                // Animate some feedback to the click
+                animateClickFeedback(v, new Runnable() {
+                      @Override
+                      public void run() {
+                          mLauncher.startActivitySafely(appInfo.intent, appInfo);
+                     }
+                });
+            }
         } else if (v instanceof PagedViewWidget) {
             // Let the user know that they have to long press to add a widget
             Toast.makeText(getContext(), R.string.long_press_widget_to_add,
@@ -2009,8 +2016,8 @@ public class AppsCustomizePagedView extends PagedViewWithDraggableItems implemen
      * We load an extra page on each side to prevent flashes from scrolling and loading of the
      * widget previews in the background with the AsyncTasks.
      */
-    final static int sLookBehindPageCount = 2;
-    final static int sLookAheadPageCount = 2;
+    final static int sLookBehindPageCount = 3;
+    final static int sLookAheadPageCount = 3;
     protected int getAssociatedLowerPageBound(int page) {
         final int count = getChildCount();
         int windowSize = Math.min(count, sLookBehindPageCount + sLookAheadPageCount + 1);
